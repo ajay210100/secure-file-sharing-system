@@ -1,0 +1,37 @@
+**Paste this content:**
+```
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Keys (IMPORTANT - don't upload private keys!)
+keys/*_private.pem
+*.key
+
+# Encrypted files
+encrypted_files/*.encrypted
+
+# Temporary files
+*.tmp
+*.swp
+test.txt
+decrypted_files/*
+
+# Mac files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.sublime-* 
